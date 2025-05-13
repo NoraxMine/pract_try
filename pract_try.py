@@ -28,7 +28,7 @@ class Person:
                 if z == None:
                      raise ValueError("0")
                 elif a.count('@') == 1 and a.count('.') == 1:
-                    if email.find(b) and email.find('.'):
+                    if email.find(b) and email.find(b):
                             self.email = email
                     else:
                         raise ValueError("1")
